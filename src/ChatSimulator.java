@@ -14,6 +14,8 @@ public class ChatSimulator {
 
         // Llama a la función para iniciar la conversación
         iniciarConversacion(nombre);
+
+        sc.close();
     }
 
     public static void iniciarConversacion(String nombre) {
@@ -33,5 +35,7 @@ public class ChatSimulator {
 
         // Pide que el alumno agregue otro mensaje final de despedida
         System.out.println("\nGracias por probar VS Code, " + nombre + "!");
+
+        sc.close();
     }
 }
